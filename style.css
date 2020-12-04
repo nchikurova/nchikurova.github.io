@@ -11,17 +11,24 @@ body {
   font-family: 'Noto Serif', serif;
     /* padding: 1em 3em; */
     background-color:whitesmoke;
+   
     width: 100%;
     margin: 0%;
-    padding: 2% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
 }
 #title-content{
   display: grid;
-  grid-template-columns: 1.5fr 6fr 4fr 1.5fr;
-  grid-template-rows: 4fr 2fr ;
+  grid-template-columns: 1.5fr 9fr 2fr 1.5fr;
+  /* grid-template-rows: 4fr 2fr ; */
   column-gap: 2%;
+  background-color: rgba(235, 229, 234, 0.76);
+  padding: 2% 0% 2% 0%;
   /* column-gap: 2%; */
   /* row-gap: 10%; */
+}
+#title-content{
+  position: sticky;
+  top: 0px;
 }
 .highlight:hover{
 opacity: 0.8;
@@ -70,6 +77,10 @@ stroke-width: 2px;
   grid-row-end: 3; 
   grid-area: 'project4';
   background-color: rgb(243, 236, 230);
+}
+#projects{
+  display: grid;
+  grid-template-columns: 1.5fr 9.5fr;
 }
 #samples{
   display: grid;
