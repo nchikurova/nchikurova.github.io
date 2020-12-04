@@ -1,0 +1,129 @@
+
+
+.title{
+/* font-family: 'Sansita Swashed', cursive; */
+font-family: 'Bebas Neue';
+
+}
+body {
+  /* font-family: 'Inria Serif', serif; */
+  /* font-family: 'Heebo', sans-serif; */
+  font-family: 'Noto Serif', serif;
+    /* padding: 1em 3em; */
+    background-color:whitesmoke;
+    width: 100%;
+    margin: 0%;
+    padding: 2% 0% 0% 0%;
+}
+#title-content{
+  display: grid;
+  grid-template-columns: 1.5fr 6fr 4fr 1.5fr;
+  grid-template-rows: 4fr 2fr ;
+  column-gap: 2%;
+  /* column-gap: 2%; */
+  /* row-gap: 10%; */
+}
+.highlight:hover{
+opacity: 0.8;
+stroke: black;
+stroke-width: 2px;
+}
+#main-content{
+    display: grid;
+    grid-template-columns: 1.5fr 4fr 4fr 1.5fr;
+    grid-template-rows: 4fr 4fr ;
+    
+    column-gap: 2%;
+    row-gap: 10%;
+  }
+
+#project1 { 
+  grid-column-start: 2; 
+  grid-column-end: 3; 
+  grid-row-start: 1; 
+  grid-row-end: 2; 
+  grid-area: 'project1';
+  background-color: lightgray;
+}
+
+#project2 { 
+  grid-column-start: 3; 
+  grid-column-end: 4; 
+  grid-row-start: 1; 
+  grid-row-end: 2; 
+  grid-area: 'project2';
+  background-color:rgb(245, 234, 245);
+}
+#project3 { 
+  grid-column-start: 2; 
+  grid-column-end: 3; 
+  grid-row-start: 2; 
+  grid-row-end: 3; 
+  grid-area: 'project3';
+  background-color: rgb(216, 232, 233);
+}
+
+#project4 { 
+  grid-column-start: 3; 
+  grid-column-end: 4; 
+  grid-row-start: 2; 
+  grid-row-end: 3; 
+  grid-area: 'project4';
+  background-color: rgb(243, 236, 230);
+}
+#samples{
+  display: grid;
+  grid-template-columns: 1.5fr 9.5fr;
+}
+#samples-content{
+  display: grid;
+  grid-template-columns: 1.5fr 4fr 4fr 1.5fr;
+  grid-template-rows: 4fr 4fr ;
+  
+  column-gap: 2%;
+  row-gap: 10%;
+}
+#sample1 { 
+  grid-column-start: 2; 
+  grid-column-end: 3; 
+  grid-row-start: 1; 
+  grid-row-end: 2; 
+  grid-area: 'project1';
+  background-color: rgb(243, 245, 228);
+}
+
+#sample2 { 
+  grid-column-start: 3; 
+  grid-column-end: 4; 
+  grid-row-start: 1; 
+  grid-row-end: 2; 
+  grid-area: 'project2';
+  background-color:rgb(245, 234, 245);
+}
+#sample3 { 
+  grid-column-start: 2; 
+  grid-column-end: 3; 
+  grid-row-start: 2; 
+  grid-row-end: 3; 
+  grid-area: 'project3';
+  background-color: rgb(228, 220, 224);
+}
+#sample4 { 
+  grid-column-start: 3; 
+  grid-column-end: 4; 
+  grid-row-start: 2; 
+  grid-row-end: 3; 
+  grid-area: 'project4';
+  background-color: rgb(224, 219, 224);
+}
+@media only screen and (max-width:800px) {
+  #main-content{
+    grid-template-columns: 1fr;
+    padding: 1em 3em;
+    grid-template-areas: 
+    'project1'
+    'project2'
+    'project3'
+    'project4';
+  }
+}
