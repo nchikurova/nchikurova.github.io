@@ -43,7 +43,7 @@ stroke-width: 2px;
   grid-row-start: 1; 
   grid-row-end: 2; 
   grid-area: 'project1';
-  background-color: lightgray;
+  background-color: rgb(236, 232, 232);
 }
 
 #project2 { 
