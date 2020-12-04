@@ -98,7 +98,7 @@ stroke-width: 2px;
   grid-row-start: 1; 
   grid-row-end: 2; 
   grid-area: 'project2';
-  background-color:rgb(245, 234, 245);
+  background-color:rgb(230, 224, 233);
 }
 #sample3 { 
   grid-column-start: 2; 
@@ -106,7 +106,7 @@ stroke-width: 2px;
   grid-row-start: 2; 
   grid-row-end: 3; 
   grid-area: 'project3';
-  background-color: rgb(228, 220, 224);
+  background-color: rgb(243, 238, 234);
 }
 #sample4 { 
   grid-column-start: 3; 
@@ -114,7 +114,7 @@ stroke-width: 2px;
   grid-row-start: 2; 
   grid-row-end: 3; 
   grid-area: 'project4';
-  background-color: rgb(224, 219, 224);
+  background-color: rgb(245, 234, 245);
 }
 @media only screen and (max-width:800px) {
   #main-content{
