@@ -138,6 +138,14 @@ stroke-width: 2px;
   grid-area: 'project4';
   background-color: rgb(245, 234, 245);
 }
+#sample5 { 
+  grid-column-start: 2; 
+  grid-column-end: 3; 
+  grid-row-start: 3; 
+  grid-row-end: 4; 
+  grid-area: 'project5';
+  background-color: hsl(330, 50%, 96%);
+}
 @media only screen and (max-width:800px) {
   #main-content{
     grid-template-columns: 1fr;
@@ -146,6 +154,7 @@ stroke-width: 2px;
     'project1'
     'project2'
     'project3'
-    'project4';
+    'project4'
+    'project5';
   }
 }
