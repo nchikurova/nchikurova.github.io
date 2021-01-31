@@ -145,7 +145,15 @@ stroke-width: 2px;
   grid-row-start: 3; 
   grid-row-end: 4; 
   grid-area: 'project5';
-  background-color: hsl(330, 50%, 96%);
+  background-color: hsl(48, 50%, 96%);
+}
+#sample6 { 
+  grid-column-start: 3; 
+  grid-column-end: 4; 
+  grid-row-start: 3; 
+  grid-row-end: 4; 
+  grid-area: 'sample6';
+  background-color:  rgb(232, 238, 240);
 }
 @media only screen and (max-width:800px) {
   #main-content{

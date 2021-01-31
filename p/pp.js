@@ -123,7 +123,7 @@ svg.append("g")
     .attr('height', 200)
     .style("fill", function (d, i) {
         return colors[i];
-    })
+    }).style('opacity', 0.8)
     // .attr("xlink:href", "https://nchikurova.github.io/portfolio/data/airbnb.png")
     .on("mouseover", mover)
     .on("mouseout", mout)
