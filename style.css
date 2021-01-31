@@ -1,9 +1,3 @@
-
-.title{
-/* font-family: 'Sansita Swashed', cursive; */
-font-family: 'Bebas Neue';
-
-}
 body {
   /* font-family: 'Inria Serif', serif; */
   /* font-family: 'Heebo', sans-serif; */
@@ -15,6 +9,13 @@ body {
     margin: 0%;
     padding: 0% 0% 0% 0%;
 }
+
+.title{
+/* font-family: 'Sansita Swashed', cursive; */
+font-family: 'Bebas Neue';
+
+}
+
 #title-content{
   display: grid;
   grid-template-columns: 1.5fr 9fr 2fr 1.5fr;
