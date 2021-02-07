@@ -1,0 +1,131 @@
+body {
+    background: #a7a4a4;
+    color: #d3bcc2;
+    font-family: 'Tajawal', sans-serif;;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    /* font-size: 40px; */
+}
+
+header {
+    background-color: hsl(225, 4%, 21%);
+    padding: 20px;
+    color: #cfbcc1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.my-name {
+    float: left;
+    padding: 25px;
+    font-size: 38px;
+    margin: .5rem;
+}
+
+.navbar {
+    /* float: right;
+    padding: 10px 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    /* display: inline-block; */
+    display: block;
+    margin-right: 50px;
+    padding-top: 25px;
+    /* padding: 1rem;  */
+    position: relative;
+}
+
+.navbar-links a {
+    color:rgb(165, 172, 172);
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+/* .navbar-links a:hover {
+    color:hsl(225, 10%, 92%);
+ }  */
+
+@media (min-width: 800px) {
+.navbar-links a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color:rgb(165, 172, 172);
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+.navbar-links a:hover::before {
+    width: 100%;
+} 
+
+}
+.toggle-button {
+    position: absolute;
+    top: 2.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+height: 3px;
+width: 100%;
+background-color:rgb(165, 172, 172);
+border-radius: 10px;
+}
+@media (max-width: 800px) {
+.toggle-button {
+    display: flex;
+}
+.navbar-links {
+    display: none;
+    width: 100%;
+}
+.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+}
+.navbar-links li {
+    text-align: center;
+    padding: 1rem; 
+}
+.navbar-links {
+    padding: .5rem 1rem;
+}
+.navbar-links.active {
+    display: flex;
+}
+.navbar-links li:hover {
+    background-color:rgb(73, 73, 75);
+}
+}
