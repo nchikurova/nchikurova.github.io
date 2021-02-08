@@ -3,12 +3,26 @@
 body {
     background: #a7a4a4;
     color: #d3bcc2;
-    font-family: 'Tajawal', sans-serif;;
+    font-family: 'Tajawal', sans-serif;
     margin: 0;
     padding: 0;
     font-weight: 600;
     /* font-size: 40px; */
     
+}
+body {
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }
 .first-section {
     background-image: url("../data/data_viz.jpeg");
@@ -188,27 +202,24 @@ border-radius: 10px;
 #welcome {
     padding: 1rem;
 }
-.quote {
-    padding: 2rem;
-    font-size: 36px;
-    font-weight: 500;
-    color:#f5e7f3;
-}
 
-.media {
-    padding: 1rem;
+
+.media a{
+padding: 1rem;
+   vertical-align: top;
+   
 }
 .fa {
-    padding: 20px;
-    /* font-size: 50px; */
+    /* padding: 20px; */
     width: 35px;
+    height: 35px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
     margin-left: 0.5rem;
   }
   
-  .fa:hover {
+.fa:hover {
       opacity: 0.7;
   }
 .fa-linkedin {
@@ -219,8 +230,38 @@ border-radius: 10px;
     background:rgb(214, 189, 218);
     color: hsl(212, 52%, 24%);
   }
+.fa-observable {
+    background:rgb(214, 189, 218);
+    color: hsl(212, 52%, 24%);
+  }
+
+.fa-tableau {
+    background:rgb(214, 189, 218);
+    color: hsl(212, 52%, 24%);
+
+  }
+  /* .image-tableau {
+    color: url("..data/icons8-tableau-software-32.png");
+    -webkit-filter: url(#duotone);
+    filter: url(#monochrome);
+    box-shadow: #224; */
+    /* box-shadow: #224 0.2em 0.2em 0.6em 0.1em;  gives beautiful shadow */
+    /* filter:  */
+    /* brightness(0.9) 
+    invert(.1) 
+    sepia(.8) 
+    hue-rotate(200deg)  */
+    /* saturate(200%); 
+  }*/
+  
   
 /* SECOND SECTION */
+.quote {
+    padding: 2rem;
+    font-size: 36px;
+    font-weight: 500;
+    color:#f5e7f3;
+}
 
 .second-section {
     transition: all ease-in-out 250ms;
