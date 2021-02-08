@@ -25,3 +25,30 @@ toggleButton.addEventListener('click', () => {
 
 //Simple icons
 //https://simpleicons.org/
+
+// const f = document.getElementById('navbar-links');
+// document.addEventListener('click', function (ev) {
+//     f.style.transform = 'translateY(' + (ev.clientY - 25) + 'px)';
+//     f.style.transform += 'translateX(' + (ev.clientX - 25) + 'px)';
+// }, false);
+
+
+//Button source: https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/
+/*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function () {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function () {
+    $("#back2Top").click(function (event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+ /*Scroll to top when arrow up clicked END*/

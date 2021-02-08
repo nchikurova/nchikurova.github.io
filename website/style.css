@@ -1,15 +1,6 @@
 /* BODY AND SECTIONS. GENERAL */
 
-body {
-    background: #a7a4a4;
-    color: #d3bcc2;
-    font-family: 'Tajawal', sans-serif;
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-    /* font-size: 40px; */
-    
-}
+
 body {
     animation: transitionIn 0.75s;
 }
@@ -24,6 +15,31 @@ body {
         transform: rotateX(0);
     }
 }
+.second-section {
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+body {
+    background: #a7a4a4;
+    color: #d3bcc2;
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    /* font-size: 40px; */
+    
+}
+
 .first-section {
     background-image: url("../data/data_viz.jpeg");
     width: 100%;
@@ -100,7 +116,9 @@ nav::after {
     float: right;
     padding: 10px 0; 
 } */
-
+.navbar-links a{
+    transition: all 1s ease-out;
+}
 .navbar-links ul {
     margin: 0;
     padding: 0;
@@ -328,4 +346,30 @@ padding: 1rem;
 .highlight {
     border-radius: 10px;
     opacity: 0.7;
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: transparent;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color:transparent;
+    color: hsl(212, 52%, 24%);
 }
