@@ -52,10 +52,11 @@ $(document).ready(function () {
 
 });
 /*Scroll to top when arrow up clicked END*/
-
+const nextSection = d3.select('#second-section')
 const projectsButton = d3.select('#projects_button')
 
 projectsButton.on('click', function (d) {
-
+    nextSection.transition()
+    duration(2000)
 
 })
