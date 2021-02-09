@@ -360,6 +360,7 @@ padding: 1rem;
     filter: url(#monochrome);
     box-shadow: #224 0.2em 0.2em 0.6em 0.1em; 
     filter:  
+    contrast(60%)
     brightness(0.8) 
     invert(.4) 
     sepia(.6) 
@@ -449,7 +450,9 @@ padding: 1rem;
         grid-row-start: 6; 
         grid-row-end: 7; 
         grid-area: 'project6';
-        
+      }
+      #img1 {
+          max-width: 300px;
       }
 }
 /* THIRD SECTION */
