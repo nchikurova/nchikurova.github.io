@@ -337,6 +337,14 @@ padding: 1rem;
   grid-area: 'project5';
   
 }
+#project6 { 
+    grid-column-start: 3; 
+    grid-column-end: 4; 
+    grid-row-start: 3; 
+    grid-row-end: 4; 
+    grid-area: 'project6';
+    
+  }
 #projects{
   /* display: grid;
   grid-template-columns: 1.5fr 9.5fr 3fr; */
@@ -345,6 +353,9 @@ padding: 1rem;
 }
 .projects-boxes {
     font-size: 30px;
+}
+.skills {
+    font-size: 20px;
 }
 #img1 {
     color: url("..data/conf.png");
@@ -378,7 +389,8 @@ padding: 1rem;
        'project2'
        'project3'
        'project4'
-       'project5';
+       'project5'
+       'project6';
       }
 
     #project1 { 
@@ -420,6 +432,14 @@ padding: 1rem;
         grid-row-start: 5; 
         grid-row-end: 6; 
         grid-area: 'project5';
+        
+      }
+      #project6 { 
+        grid-column-start: 2; 
+        grid-column-end: 3; 
+        grid-row-start: 6; 
+        grid-row-end: 7; 
+        grid-area: 'project6';
         
       }
 }
