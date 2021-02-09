@@ -355,8 +355,15 @@ padding: 1rem;
 .projects-boxes:hover {
     color: black;
     font-weight:500;
-    box-shadow: rgb(87, 87, 99) 0.2em 0.2em 0.6em 0.1em; 
+    /* box-shadow: rgb(123, 123, 136) 0.2em 0.2em 0.6em 0.1em;  */
     /* background-color: rgb(226, 212, 221); */
+}
+.box {
+    padding:0.5rem;
+    border-radius: 10px;
+}
+.box:hover {
+    box-shadow: rgb(94, 94, 109) 0.2em 0.2em 0.6em 0.1em; 
 }
 @media (max-width:800px) {
     #main-content {
