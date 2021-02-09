@@ -280,7 +280,7 @@ padding: 1rem;
 #main-content {
     display: grid;
     grid-template-columns: 1.5fr 4fr 4fr 1.5fr;
-    grid-template-rows: 4fr 4fr 4fr;
+    grid-template-rows: 4fr 4fr 4fr 4fr;
     
     column-gap: 6%;
     row-gap: 2%;
@@ -346,22 +346,21 @@ padding: 1rem;
     
   }
 #projects{
-  /* display: grid;
-  grid-template-columns: 1.5fr 9.5fr 3fr; */
   padding: 0.2rem;
 
 }
 .projects-boxes {
     font-size: 30px;
 }
+
 #img1 {
     color: url("..data/conf.png");
     -webkit-filter: url(#duotone);
     filter: url(#monochrome);
     box-shadow: #224 0.2em 0.2em 0.6em 0.1em; 
     filter:  
-    contrast(60%)
-    brightness(0.8) 
+    contrast(300%)
+    brightness(0.9) 
     invert(.4) 
     sepia(.6) 
     hue-rotate(200deg) 
