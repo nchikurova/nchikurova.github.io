@@ -354,10 +354,19 @@ padding: 1rem;
 .projects-boxes {
     font-size: 30px;
 }
-.skills {
-    font-size: 20px;
-}
 #img1 {
+    color: url("..data/conf.png");
+    -webkit-filter: url(#duotone);
+    filter: url(#monochrome);
+    box-shadow: #224 0.2em 0.2em 0.6em 0.1em; 
+    filter:  
+    brightness(0.8) 
+    invert(.4) 
+    sepia(.6) 
+    hue-rotate(200deg) 
+    saturate(100%);  
+}
+#img1:hover {
     color: url("..data/conf.png");
     -webkit-filter: url(#duotone);
     filter: url(#monochrome);
@@ -383,7 +392,7 @@ padding: 1rem;
         grid-template-rows: 4fr 4fr 4fr 4fr 4fr;
         
         column-gap: 2%;
-        row-gap: 10%;
+        row-gap: 3%;
        grid-template-areas: 
        'project1'
        'project2'
