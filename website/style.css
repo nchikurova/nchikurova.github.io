@@ -421,7 +421,7 @@ padding: 1rem;
         grid-area: 'project4';
         
       }
-      #project1 { 
+      #project5 { 
         grid-column-start: 2; 
         grid-column-end: 3; 
         grid-row-start: 5; 
@@ -575,7 +575,7 @@ padding: 1rem;
     contrast(300%)
     brightness(0.9) 
     invert(.9) 
-    sepia(.6) 
+    sepia(.9) 
     hue-rotate(200deg) 
     saturate(100%);  
 }
