@@ -575,7 +575,7 @@ padding: 1rem;
     contrast(300%)
     brightness(0.9) 
     invert(.9) 
-    sepia(.9) 
+    sepia(.4) 
     hue-rotate(200deg) 
     saturate(100%);  
 }
