@@ -334,6 +334,15 @@ nav::after {
   grid-row-end: 5;
   grid-area: "project7";
 }
+
+#project8 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-area: "project8";
+}
+
 #projects {
   padding: 0.2rem;
 }
@@ -438,6 +447,14 @@ nav::after {
     grid-row-start: 7;
     grid-row-end: 8;
     grid-area: "project7";
+  }
+
+  #project8 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-area: "project8";
   }
   #img1 {
     max-width: 300px;
