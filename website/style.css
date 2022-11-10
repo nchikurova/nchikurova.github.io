@@ -254,14 +254,13 @@ nav::after {
 
 .fa-tableau {
   background: rgb(214, 189, 218);
-  /* color: hsl(212, 52%, 24%); */
-  color: white;
+  color: hsl(212, 52%, 24%);
 }
 
 .fa-envelope {
   background: rgb(214, 189, 218);
-  /*color: hsl(212, 52%, 24%);*/
-  color: white;
+  color: hsl(212, 52%, 24%);
+  
 }
 
 /* SECOND SECTION */
