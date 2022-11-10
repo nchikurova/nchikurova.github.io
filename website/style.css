@@ -259,7 +259,8 @@ nav::after {
 
 .fa-envelope {
   background: rgb(214, 189, 218);
-  color: hsl(212, 52%, 24%);
+  /*color: hsl(212, 52%, 24%);*/
+  color: aqua;
 }
 
 /* SECOND SECTION */
