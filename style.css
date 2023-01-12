@@ -250,38 +250,23 @@ nav::after {
   opacity: 0.7;
 }
 .fa-linkedin {
-  /* background: rgb(214, 189, 218); */
-  /* background: rgb(81, 79, 82); */
   color: hsl(210, 9%, 91%);
-  /* color: hsl(212, 52%, 24%); */
   background: rgb(41, 69, 97);
 }
 .fa-github {
-  /* background: rgb(214, 189, 218);
-  color: hsl(212, 52%, 24%);
-  background: rgb(81, 79, 82); */
   color: hsl(210, 9%, 91%);
   background: rgb(42, 68, 94);
 }
 .fa-observable {
-  /* background: rgb(214, 189, 218);
-  color: hsl(212, 52%, 24%); */
-  /* background: rgb(81, 79, 82); */
   color: hsl(210, 9%, 91%);
   background: rgb(42, 68, 94);
 }
 
 .fa-tableau {
-  /* background: rgb(214, 189, 218); */
-  /* color: hsl(212, 52%, 24%); */
-  /* background: rgb(81, 79, 82); */
   color: hsl(210, 9%, 91%);
   background: rgb(42, 68, 94);
 }
 .fa-envelope {
-  /* background: rgb(214, 189, 218);
-  color: hsl(212, 52%, 24%); */
-  /* background: rgb(81, 79, 82); */
   color: hsl(210, 9%, 91%);
   background: rgb(42, 68, 94);
 }
